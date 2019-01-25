@@ -3,6 +3,7 @@
 IoT device (raspberry 3b+) that sends sensor data (temperature, humidity, pressure) and picture to a server using the MQTT protocol.
 
 `aws_client.py` sends data to AWS IoT Core service, while `Client.py` sends data to a local MQTT broker.
+- Edit the `mqtt_config.json` with the IP and port from the mosquitto broker
 
 Energy Raspi 3b+
 ----
